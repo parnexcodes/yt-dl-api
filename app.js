@@ -37,7 +37,7 @@ app.get('/', async (req, res) => {
                 'URL': url
             })
         })
-        return info
+        return arr
     }
     try {
         const apiData = await getVideo()
